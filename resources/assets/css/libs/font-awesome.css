@@ -14,10 +14,14 @@
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
+  color:#337ab7;
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+#user_top{
+  color: white !important;
 }
 /* makes the font 33% larger relative to the icon container */
 .fa-lg {

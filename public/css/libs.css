@@ -1100,8 +1100,11 @@ textarea {
   font-size: inherit;
   line-height: inherit;
 }
+#display_user{
+  color:#337ab7 !important;
+}
 a {
-  color: #337ab7;
+  color: black;
   text-decoration: none;
 }
 a:hover,
@@ -3891,7 +3894,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eee;
+  background-color:#eee;
 }
 .nav > li.disabled > a {
   color: #777;
@@ -3903,10 +3906,17 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   cursor: not-allowed;
   background-color: transparent;
 }
+.nav > li.disabled > a #hoveruser:hover,
+.nav > li.disabled > a #hoveruser:focus{
+  color:skyblue;
+  text-decoration: none;
+  cursor: not-allowed;
+  background-color: transparent;
+}
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-  background-color: #eee;
+  background-color:#337ab7;
   border-color: #337ab7;
 }
 .nav .nav-divider {
@@ -3943,6 +3953,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border: 1px solid #ddd;
   border-bottom-color: transparent;
 }
+
 .nav-tabs.nav-justified {
   width: 100%;
   border-bottom: 0;
@@ -4176,6 +4187,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
+  color: white !important;
   height: 50px;
   padding: 15px 15px;
   font-size: 18px;
@@ -6581,7 +6593,10 @@ button.close {
     display: none !important;
   }
 }
+
+
 /*# sourceMappingURL=bootstrap.css.map */
+
 
 /*!
  * Start Bootstrap - Blog Post HTML Template (http://startbootstrap.com)
@@ -6612,10 +6627,14 @@ footer {
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
+  color:#337ab7;
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+#user_top{
+  color: white !important;
 }
 /* makes the font 33% larger relative to the icon container */
 .fa-lg {
@@ -8688,9 +8707,4 @@ table.dataTable thead .sorting:after {
     color: #df8a13;
 }
 
-
-body { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAxMC8yOS8xMiKqq3kAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzVxteM2AAABHklEQVRIib2Vyw6EIAxFW5idr///Qx9sfG3pLEyJ3tAwi5EmBqRo7vHawiEEERHS6x7MTMxMVv6+z3tPMUYSkfTM/R0fEaG2bbMv+Gc4nZzn+dN4HAcREa3r+hi3bcuu68jLskhVIlW073tWaYlQ9+F9IpqmSfq+fwskhdO/AwmUTJXrOuaRQNeRkOd5lq7rXmS5InmERKoER/QMvUAPlZDHcZRhGN4CSeGY+aHMqgcks5RrHv/eeh455x5KrMq2yHQdibDO6ncG/KZWL7M8xDyS1/MIO0NJqdULLS81X6/X6aR0nqBSJcPeZnlZrzN477NKURn2Nus8sjzmEII0TfMiyxUuxphVWjpJkbx0btUnshRihVv70Bv8ItXq6Asoi/ZiCbU6YgAAAABJRU5ErkJggg==);}
-.error-template {padding: 40px 15px;text-align: center;}
-.error-actions {margin-top:15px;margin-bottom:15px;}
-.error-actions .btn { margin-right:10px; }
 /*# sourceMappingURL=libs.css.map */
